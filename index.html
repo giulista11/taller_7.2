@@ -10,8 +10,12 @@
   <input type="text" name="nombre" id="nombre">
   <label for="apellido">Apellido</label>
   <input type="text" name="apellido" id="apellido">
-  <input type="submit" value="Saludar">
+  <input type="submit" value="Saludar" id="saludar" onclick="saludar()">
 </form>
-
+<script>
+    function saludar() {
+        alert("Holaa");
+    }
+</script>
 </body>
 </html>
