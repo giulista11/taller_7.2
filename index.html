@@ -2,20 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Registro</title>
 </head>
 <body>
 <form>
   <label for="nombre">Nombre</label>
   <input type="text" name="nombre" id="nombre">
+    <br>
   <label for="apellido">Apellido</label>
   <input type="text" name="apellido" id="apellido">
-  <input type="submit" value="Saludar" id="saludar" onclick="saludar()">
+    <div id="boton">
+        <input type="submit" value="Saludar" id="saludar" onclick="saludar()">
+    </div>
 </form>
-<script>
-    function saludar() {
-        alert("Holaa");
-    }
-</script>
+<script src="script.js"></script>
 </body>
 </html>
